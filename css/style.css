@@ -17,7 +17,6 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    border: 2px solid red;
 }
 header .header-company-title{
     display: flex;
@@ -49,8 +48,8 @@ li {
     display: flex;
     justify-content: center;
     align-items: start;
+    gap: 32px;
     background-color: #1F2937;
-    border: 2px solid yellow;
 }
 .first-intro img, .first-intro .text{
     flex: 1;
@@ -58,10 +57,8 @@ li {
 .first-intro img{
     min-width: 346px;
     height: auto;
-    border: 2px solid green;
 }
 .first-intro h1 {
-    border: 2px solid black;
     margin: 0px;
     padding: 0px;
     font-size: 48px;
@@ -79,7 +76,6 @@ li {
     flex-direction: column;
     align-items: start;
     font-size: 18px;
-    border: 2px solid purple;
 }
 .first-intro button {
     background-color: #3882F6;
@@ -106,7 +102,6 @@ li {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
-    border: 2px solid yellow;
 
 }
 .second-info .card-container {
@@ -117,22 +112,18 @@ li {
     gap: 32px;
     padding: 0px 32px;
     margin-bottom: 64px;
-    border: 2px solid red;
 }
 .card {
     display:flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    border: 2px solid red;
-
 }
 .card p {
     margin-top: 8px;
     text-align: center;
     font-size: 18px;
     color: #1F2937;
-    border: 2px solid #3882F6;
 }
 .card img {
     width: 100%;
@@ -149,7 +140,6 @@ li {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    border: 2px solid blue;
 }
 .testimonial, .author {
     max-width: 600px;
@@ -160,14 +150,12 @@ li {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    border: 2px solid red;
 }
 .author {
     margin: 0px;
     text-align: right;
     font-size: 24px;
     font-weight: bold;
-    border: 2px solid yellow;
 }
 
 .fourth-sign-up {
@@ -193,8 +181,6 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    border: 1px solid #F9FAF8;
-
 }
 .sign-up-promo h4 {
     padding: 0px;
@@ -202,16 +188,12 @@ li {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
-    border: 1px solid #F9FAF8;
-
 }
 .sign-up-promo p {
     padding: 0px;
     margin: 0px;
     font-size: 18px;
     color: #E5E7EB;
-    border: 1px solid #F9FAF8;
-
 }
 .fourth-sign-up button {
     padding: 0px 16px;
