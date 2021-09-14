@@ -40,6 +40,9 @@ header ul {
 li {
     list-style: none;    
     font-size: 18px;
+}
+a {
+    text-decoration: none;
     color: #E5E7EB;
 }
 button {
@@ -50,6 +53,9 @@ button {
     padding: 0px 16px;
     color:#F9FAF8;
     font-weight: bold;
+}
+button:hover {
+    background-color: #76abff;
 }
 
 .first-intro {
