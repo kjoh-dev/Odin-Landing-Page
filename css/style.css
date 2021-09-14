@@ -42,6 +42,15 @@ li {
     font-size: 18px;
     color: #E5E7EB;
 }
+button {
+    min-width: 84px;
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    border-radius: 8px;
+    padding: 0px 16px;
+    color:#F9FAF8;
+    font-weight: bold;
+}
 
 .first-intro {
     padding: 64px 64px;
@@ -78,13 +87,7 @@ li {
     font-size: 18px;
 }
 .first-intro button {
-    background-color: #3882F6;
-    border: 1px solid #3882F6;
-    border-radius: 8px;
-    padding: 0px 16px;
     margin-top: 8px;
-    color:#F9FAF8;
-    font-weight: bold;
 }
 
 .second-info {
@@ -104,7 +107,7 @@ li {
     color: #1F2937;
 
 }
-.second-info .card-container {
+.card-container {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -118,6 +121,7 @@ li {
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    flex: 1;
 }
 .card p {
     margin-top: 8px;
@@ -175,6 +179,8 @@ li {
     margin: 0px;
     background-color: #3882F6;
     border-radius: 8px;
+    gap: 32px;
+
 }
 .sign-up-promo {
     display: flex;
@@ -196,13 +202,7 @@ li {
     color: #E5E7EB;
 }
 .fourth-sign-up button {
-    padding: 0px 16px;
-    text-align: center;
-    background-color: #3882F6;
     border: 1px solid #F9FAF8;
-    border-radius: 8px;
-    color:#F9FAF8;
-    font-weight: bold;
 }
 
 footer {
